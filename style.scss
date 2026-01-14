@@ -337,6 +337,36 @@
         line-height: 22px;
     }
 }
+.kll{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    padding-top: 50px;
+    .kll1{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .kll1 p{
+        line-height: 22px;
+    }
+    .kll2{
+        display: flex;
+        gap: 30px;
+    }
+}
+.jll{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    padding-top: 50px;
+}
 @media(max-width:610px) {
     .all {
         width: 90%;
@@ -531,5 +561,14 @@
             width: 90%;
             margin: auto;
         }
+    }
+    .kll{
+        display: flex;
+        flex-direction: column;
+    }
+    .jll{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 }
