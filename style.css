@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.all {
+  max-width: 1200px;
+  margin: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all .all1 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  color: rgb(30, 30, 30);
+}
+.all .all2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.all .all2 button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(rgb(52, 204, 52));
+  color: white;
+  box-shadow: 3px 10px 0px rgba(127, 202, 6, 0.062);
+}
+.all .all3 {
+  display: none;
+}
+
+.zll {
+  max-width: 1200px;
+  height: 520px;
+  background-image: url(./Image-00.png);
+  margin: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.zll .zll1 {
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  padding: 0px 80px;
+}
+.zll .zll2 h1 {
+  font-size: 40px;
+}
+.zll .zll2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.zll .zll2 p {
+  width: 250px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.zll .zll4 {
+  width: 270px;
+}
+.zll .zll4 p {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.zll .zll3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 610px) {
+  .all {
+    width: 90%;
+  }
+  .all .all1 {
+    display: none;
+  }
+  .all .all2 {
+    display: none;
+  }
+  .all .all3 {
+    display: block;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .all .all3 img {
+    width: 30px;
+  }
+  .all .img1 {
+    width: 200px;
+  }
+  .zll {
+    width: 90%;
+    height: 600px;
+    background-image: url(./Image-00\ \(1\).png);
+    background-size: 100%;
+    text-align: center;
+  }
+  .zll .zll1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .zll .zll2 {
+    text-align: center;
+  }
+  .zll .zll3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+  }
+}/*# sourceMappingURL=style.css.map */
