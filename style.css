@@ -251,6 +251,54 @@
   width: 600px;
 }
 
+.rll {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  padding-top: 50px;
+}
+.rll .rll1 {
+  width: 100%;
+  margin: auto;
+}
+.rll .rll1 h1 {
+  text-align: center;
+}
+.rll .rll3 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rll .rll4 {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rll .rll2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.rll .rll3 h4 {
+  color: rgb(113, 171, 40);
+  text-decoration: underline;
+  line-height: 22px;
+}
+.rll .rll4 h4 {
+  color: rgb(113, 171, 40);
+  text-decoration: underline;
+  line-height: 22px;
+}
+
 @media (max-width: 610px) {
   .all {
     width: 90%;
@@ -374,5 +422,42 @@
   }
   .dll .dll4 img {
     width: 90%;
+  }
+  .ppp {
+    height: auto;
+  }
+  .ppp .ppp1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .ppp .ppp3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .ppp .ppp6 button {
+    display: none;
+  }
+  .ppp .ppp5 img {
+    width: 100%;
+  }
+  .ppp .img5 {
+    width: 100%;
+  }
+  .rll {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .rll .rll2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .rll .rll3 {
+    display: none;
+  }
+  .rll .rll4 {
+    width: 90%;
+    margin: auto;
   }
 }/*# sourceMappingURL=style.css.map */
